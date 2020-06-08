@@ -3,6 +3,7 @@
 <head>
 	<link rel="stylesheet" type="text/css" href="./assets/stylesheets/custom.css">
 	<title></title>
+	<script type='text/javascript' src="./assets/javascripts/javascript.js"></script>
 </head>
 <body>
 <nav>
@@ -16,10 +17,12 @@
 <img src="./assets/images/rock.png" width="100px">
 <img src="./assets/images/scissors.png" width="100px"><br>
 
-<button type="button">Paper</button>
-<button type="button">Rock</button>
-<button type="scissors">Scissors</button>
+<button type="button" onclick="chosePaper()">Paper</button>
+<button type="button" onclick="choseRock()">Rock</button>
+<button type="button" onclick="choseScissors()">Scissors</button>
 
-<script src="./assets/javascript/javascript.js"></script>
+<p><span id="playerChoice"></span></p>
+
+
 </body>
 </html>
