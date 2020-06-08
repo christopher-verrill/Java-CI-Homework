@@ -1,6 +1,7 @@
 .selection {
 	display: flex;
 	justify-content: center;	
+	vertical-align: middle;
 }
 
 .selectChoice {
@@ -8,6 +9,17 @@
 	flex-direction: column;
 	justify-content: column;
 	padding: 10px;
+	vertical-align: middle;
+}
+
+.scoreTracking {
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+}
+
+.scoreTally {
+	padding: 50px;
 }
 
 .reset {
@@ -18,4 +30,8 @@
 p {
 	text-align: center;
 	padding: 10px;
+}
+
+.RPSButton {
+	margin: 5px;
 }

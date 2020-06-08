@@ -30,20 +30,21 @@
   </div>
 </nav>
 
-<h1>Rock, Paper, Scissors</h1>
-<p>Are you ready to play rock, paper, scissors against a computer? Choose either rock, paper, or scissors.</p>
+
+ <h1 class="display-4">Rock, Paper, Scissors</h1>
+	<p>Are you ready to play rock, paper, scissors against a computer? Choose either rock, paper, or scissors.</p>
 
 <div class="selection">
 	<div class="selectChoice">
-		<img src="./assets/images/paper.jpg" width="100px">
+		<img src="./assets/images/paper.jpg" width="100px" height="100px">
 		<button type="button" onclick="chosePaper()" class="btn btn-primary RPSButton">Paper</button>
 	</div>
 	<div class="selectChoice">
-		<img src="./assets/images/rock.png" width="100px">
+		<img src="./assets/images/rock.png" width="100px" height="100px">
 		<button type="button" onclick="choseRock()" class="btn btn-primary RPSButton">Rock</button>
 	</div>
 	<div class="selectChoice">
-		<img src="./assets/images/scissors.png" width="100px">
+		<img src="./assets/images/scissors.png" width="100px" height="100px">
 		<button type="button" onclick="choseScissors()" class="btn btn-primary RPSButton">Scissors</button>
 	</div>
 </div>
@@ -51,14 +52,20 @@
 <p><span id="playerChoice"></span></p>
 
 <div class="scoreTracking">
-	<div class="scoreTally"><span id="playerWins"></span></div>
-	<div class="scoreTally">Draws<span id="playerDraws"></span></div>
-	<div class="scoreTally">Losses<span id="playerLosses"></span></div>
+	<div class="scoreTally"><h4>Wins</h4><span id="playerWins"></span></div>
+	<div class="scoreTally"><h4>Draws</h4><span id="playerDraws"></span></div>
+	<div class="scoreTally"><h4>Losses</h4><span id="playerLosses"></span></div>
 </div>
 
 <div class="reset">
 	<button type="button" onclick="reset()" class="btn btn-secondary">Reset</button>
 </div>
+
+<footer>
+	<div class="footer-copyright text-center py-3">© 2020 Copyright:
+  	<a href="https://mdbootstrap.com/">NoCopyright.com</a>
+  </div>
+</footer>
 
 </body>
 </html>
